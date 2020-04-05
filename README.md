@@ -41,7 +41,9 @@ RGBW [Leiterbahnbreite](https://www.mikrocontroller.net/articles/Leiterbahnbreit
 USBx ist anzupassen an die aktuell benutzte Schnittstelle.<br>
 - FLASH Lötbrücke öffnen, J1 Lötbrücke schließen.<br>
 
-Alternative [ESPurna](https://github.com/xoseperez/espurna) und [Tasmota](https://github.com/arendst/Tasmota) Firmware mit IR-Empfang für MagicHome LED Controller.
+Alternative [ESPurna](https://github.com/xoseperez/espurna) und [Tasmota](https://github.com/arendst/Tasmota) Firmware mit IR-Empfang für MagicHome LED Controller.<br>
+Tasmota Template für RGB LED Controller:<br>
+`{"NAME":"MagicHome","GPIO":[17,0,56,0,147,38,0,0,39,0,37,0,0],"FLAG":0,"BASE":37}`
 
 ## Gehäuse
 [TEKO](http://www.tekoenclosures.com) 10014 Gehäuse Serie Soap.
